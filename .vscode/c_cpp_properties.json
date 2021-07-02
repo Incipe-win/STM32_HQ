@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "Win64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/Libraries/CMSIS/Include",
+                "${workspaceFolder}/Libraries/CMSIS/Device/ST/STM32F4xx/Include",
+                "${workspaceFolder}/Libraries/STM32F4xx_StdPeriph_Driver/inc",
+                "${workspaceFolder}/User"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "STM32F40_41xxx",
+                "USE_STDPERIPH_DRIVER"
+            ],
+            "compilerPath": "E:\\mingw64\\bin\\gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "gnu++20",
+            "intelliSenseMode": "clang-x64",
+            "compilerArgs": [
+                "STM32F40_41xxx",
+                "USE_STDPERIPH_DRIVER"
+            ]
+        }
+    ],
+    "version": 4
+}
